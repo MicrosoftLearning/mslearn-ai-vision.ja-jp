@@ -1,2 +1,2 @@
-# mslearn-ai-vision.ja-jp
-Japanese repo for mslearn-ai-vision
+# mslearn-computer-vision
+Azure AI Vision モジュールのラボ ファイル
