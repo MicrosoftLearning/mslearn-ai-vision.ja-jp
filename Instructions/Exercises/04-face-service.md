@@ -1,14 +1,16 @@
 ---
 lab:
   title: 顔の検出と分析
-  module: 'Module 10 - Detecting, Analyzing, and Recognizing Faces'
+  module: Module 4 - Detecting and Analyze Faces
 ---
 
 # 顔の検出と分析
 
 人間の顔を検出して分析する機能は、AI のコア機能です。 この演習では、画像内の顔を操作するために使用できる 2 つの Azure AI サービスである **Azure AI Vision** サービスと **Face** サービスについて説明します。
 
-> **注**: 2022 年 6 月 21 日から、個人を特定できる情報を返す Azure AI サービスの機能は、[制限付きアクセス](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-limited-access)が許可されているお客様に限定されます。 さらに、感情的な状態を推測する機能は使用できなくなりました。 これらの制限は、このラボの演習に影響する可能性があります。 この問題に対処していますが、その間、次の手順に従うとエラーが発生する可能性があります。申し訳ございません。 Microsoft が行った変更と理由について詳しくは、「[顔認識に対する責任ある AI 投資と保護](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/)」をご覧ください。
+> **重要**: このラボは、制限された機能への追加アクセスを何も要求せずに完了できます。
+
+> **注**: 2022 年 6 月 21 日から、個人を特定できる情報を返す Azure AI サービスの機能は、[制限付きアクセス](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-limited-access)が許可されているお客様に限定されます。 さらに、感情的な状態を推測する機能は使用できなくなりました。 Microsoft が行った変更と理由について詳しくは、「[顔認識に対する責任ある AI 投資と保護](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/)」をご覧ください。
 
 ## このコースのリポジトリを複製する
 
