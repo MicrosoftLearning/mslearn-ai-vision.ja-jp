@@ -93,7 +93,7 @@ Azure AI Vision は、ソフトウェア システムが画像を分析して視
 この演習では、Azure AI Vision サービスを使用して複数の画像を分析します。
 
 1. Visual Studio Code で、**image-analysis** フォルダーとそれに含まれる **images** フォルダーを展開します。
-2. 各画像ファイルを順番に選択して表示し、Visual Studio Code で表示します。
+2. 各画像ファイルを順番に選択して、Visual Studio Code で表示します。
 
 ## 画像を分析してキャプションを提案する
 
