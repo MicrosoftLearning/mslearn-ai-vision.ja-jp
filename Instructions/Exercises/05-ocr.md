@@ -49,7 +49,7 @@ lab:
     **C#**
     
     ```
-    dotnet add package Azure.AI.Vision.ImageAnalysis -v 1.0.0-beta.1
+    dotnet add package Azure.AI.Vision.ImageAnalysis -v 1.0.0-beta.3
     ```
 
     > **注**: 開発キット拡張機能のインストールを求められた場合は、そのメッセージを閉じてかまいません。
@@ -57,7 +57,7 @@ lab:
     **Python**
     
     ```
-    pip install azure-ai-vision-imageanalysis==1.0.0b1
+    pip install azure-ai-vision-imageanalysis==1.0.0b3
     ```
 
 3. **read-text** フォルダーの内容を表示し、構成設定用のファイルが含まれていることにご注意ください。
@@ -70,7 +70,7 @@ lab:
 
 ## Azure AI Vision SDK を使用して画像からテキストを読み取る
 
-**Azure AI Vision SDK** の機能の 1 つは、画像からテキストを読み取る機能です。 この演習では、Azure AI Vision SDK を使用して画像からテキストを読み取る、部分的に実装されたクライアント アプリケーションを完成させます。
+**Azure AI Vision SDK** の機能の 1 つとして、画像からテキストを読み取ることができます。 この演習では、Azure AI Vision SDK を使用して画像からテキストを読み取る、部分的に実装されたクライアント アプリケーションを完成させます。
 
 1. **read-text** フォルダーには、クライアント アプリケーションのコード ファイルが含まれています。
 
