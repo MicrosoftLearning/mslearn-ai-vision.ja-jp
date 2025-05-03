@@ -1,7 +1,6 @@
 using System;
 using System.IO;
 using System.Linq;
-using System.Drawing;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -16,6 +15,8 @@ namespace read_text
 {
     class Program
     {
+
+        // Declare variable for Azure AI Vision client
 
         static void Main(string[] args)
         {
@@ -41,7 +42,7 @@ namespace read_text
 
                 
                 // Read text in image
-                GetTextRead(imageFile, client);
+                GetTextRead(imageFile);
 
             }
             catch (Exception ex)
@@ -50,7 +51,7 @@ namespace read_text
             }
         }
 
-        static void GetTextRead(string imageFile, ImageAnalysisClient client)
+        static void GetTextRead(string imageFile)
         {
             Console.WriteLine($"\nReading text from {imageFile} \n");
 
