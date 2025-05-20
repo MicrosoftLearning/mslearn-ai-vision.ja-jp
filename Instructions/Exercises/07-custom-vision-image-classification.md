@@ -46,7 +46,7 @@ lab:
 
 画像分類モデルをトレーニングするには、トレーニング リソースに基づいて Custom Vision プロジェクトを作成する必要があります。 これを行うには、Custom Vision ポータルを使用します。
 
-1. Visual Studio Code で、リポジトリを複製した **LabFiles/07-custom-vision-image-classification/training-images** フォルダーにあるトレーニング画像を表示します。 このフォルダーには、リンゴ、バナナ、オレンジの画像のサブフォルダーが含まれています。
+1. Visual Studio Code で、リポジトリを複製した **Labfiles/07-custom-vision-image-classification/training-images** フォルダーにあるトレーニング画像を表示します。 このフォルダーには、リンゴ、バナナ、オレンジの画像のサブフォルダーが含まれています。
 2. 新しいブラウザー タブで、`https://customvision.ai` の Custom Vision ポータルを開きます。 ダイアログが表示されたら、ご利用の Azure サブスクリプションに関連付けられている Microsoft アカウントを使用してサインインして、サービス利用規約に同意します。
 3. Custom Vision ポータルで、次の設定を使って新しいプロジェクトを作成します。
     - **名前**: フルーツの分類
@@ -55,7 +55,7 @@ lab:
     - **プロジェクトの種類**: Classification
     - **分類の種類**: Multiclass (Single tag per image)
     - **ドメイン**: 食品
-4. 新しいプロジェクトで、**\[+\] イメージの追加**をクリックし、前に表示した **LabFiles/07-custom-vision-image-classification/training-images/apple** フォルダー内のすべてのファイルを選択します。 次のように *apple* というタグを指定して、画像ファイルをアップロードします。
+4. 新しいプロジェクトで、**\[+\][イメージの追加]** をクリックし、前に表示した **Labfiles/07-custom-vision-image-classification/training-images/apple**フォルダー内のすべてのファイルを選択します。 次のように *apple* というタグを指定して、画像ファイルをアップロードします。
 
 ![apple タグを指定してアップロードする](../media/upload_apples.jpg)
    
