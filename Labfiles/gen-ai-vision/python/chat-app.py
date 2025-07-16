@@ -2,6 +2,7 @@ import os
 from urllib.request import urlopen, Request
 import base64
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Add references
 
@@ -15,9 +16,8 @@ def main():
     
         # Get configuration settings 
         load_dotenv()
-        project_connection = os.getenv("PROJECT_CONNECTION")
+        project_endpoint = os.getenv("PROJECT_CONNECTION")
         model_deployment =  os.getenv("MODEL_DEPLOYMENT")
-
 
 
         # Initialize the project client
@@ -30,7 +30,7 @@ def main():
 
 
         # Initialize prompts
-        system_message = "You are an AI assistant in a grocery store that sells fruit."
+        system_message = "You are an AI assistant in a grocery store that sells fruit. You provide detailed answers to questions about produce."
         prompt = ""
 
         # Loop until the user types 'quit'
