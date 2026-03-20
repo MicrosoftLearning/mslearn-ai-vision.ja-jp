@@ -38,13 +38,13 @@ def main():
             # save the image
             img_no += 1
             file_name = f"image_{img_no}.png"
-            save_image (image_url, file_name)
+            save_image (image_data, file_name)
 
 
     except Exception as ex:
         print(ex)
 
-def save_image (image_url, file_name):
+def save_image (image_data, file_name):
     # Set the directory for the stored image
     image_dir = os.path.join(os.getcwd(), 'images')
 
@@ -55,10 +55,9 @@ def save_image (image_url, file_name):
     # Initialize the image path (note the filetype should be png)
     image_path = os.path.join(image_dir, file_name)
 
-    # Retrieve the generated image
-    generated_image = requests.get(image_url).content  # download the image
+    # Save the generated image
     with open(image_path, "wb") as image_file:
-        image_file.write(generated_image)
+        image_file.write(image_data)
     print (f"Image saved as {image_path}")
 
 
