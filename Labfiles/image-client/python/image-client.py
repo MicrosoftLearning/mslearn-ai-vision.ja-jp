@@ -38,7 +38,7 @@ def main():
             # save the image
             img_no += 1
             file_name = f"image_{img_no}.png"
-            save_image (image_data, file_name)
+            save_image(image_data_in_bytes, file_name)
 
 
     except Exception as ex:
