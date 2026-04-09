@@ -16,17 +16,12 @@ def main():
     
         # Get configuration settings 
         load_dotenv()
-        project_endpoint = os.getenv("PROJECT_CONNECTION")
+        openai_endpoint = os.getenv("ENDPOINT")
         model_deployment =  os.getenv("MODEL_DEPLOYMENT")
 
 
-        # Initialize the project client
-
+        # Create an OpenAI client
         
-
-        # Get a chat client
-        
-
 
 
         # Initialize prompts
