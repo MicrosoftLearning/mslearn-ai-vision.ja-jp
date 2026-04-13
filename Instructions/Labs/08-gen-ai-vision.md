@@ -1,11 +1,14 @@
 ---
 lab:
-  title: ビジョン対応チャット アプリを開発する
+  title: ビジョン対応チャット アプリを開発する (非推奨)
   description: Azure AI Foundry を使用して、画像入力をサポートする生成 AI アプリをビルドする。
+  islab: false
 ---
 
-# ビジョン対応チャット アプリを開発する
-
+# ビジョン対応チャット アプリを開発する (非推奨)
+<!--
+> **Note**: This exercise is deprecated. Consider reviewing the replacement exercise at <https://microsoftlearning.github.io/mslearn-ai-vision/Instructions/Exercises/01-gen-ai-vision.html>.
+-->
 この演習では、*Phi-4-multimodal-instruct* 生成 AI モデルを使用して、画像を含むプロンプトに対する応答を生成します。 Azure AI Foundry と Azure AI モデル推論サービスを使用して、食料品店の新鮮な食材に AI 支援を提供するアプリを開発します。
 
 > **注**:この演習は、変更される可能性があるプレリリース SDK ソフトウェアに基づいています。 必要に応じて、特定のバージョンのパッケージを使用しました。利用可能な最新バージョンが反映されていない可能性があります。 予期しない動作、警告、またはエラーが発生する場合があります。
@@ -212,7 +215,7 @@ Azure AI *プロジェクト*には、AI 開発のための共同ワークスペ
     **<font color="red">Cloud Shell セッションが既に認証されている場合でも、Azure にサインインする必要があります。</font>**
 
     > **注**: ほとんどのシナリオでは、*az ログイン*を使用するだけで十分です。 ただし、複数のテナントにサブスクリプションがある場合は、*[--tenant]* パラメーターを使用してテナントを指定する必要があります。 詳細については、「[Azure CLI を使用して対話形式で Azure にサインインする](https://learn.microsoft.com/cli/azure/authenticate-azure-cli-interactively)」を参照してください。
-    
+
 1. メッセージが表示されたら、指示に従って新しいタブでサインイン ページを開き、指定された認証コードと Azure 資格情報を入力します。 次に、コマンド ラインでサインイン プロセスを完了し、プロンプトが表示されたら、Azure AI Foundry ハブを含むサブスクリプションを選択します。
 
 1. サインインしたら、次のコマンドを入力してアプリケーションを実行します。
@@ -274,7 +277,7 @@ Azure AI *プロジェクト*には、AI 開発のための共同ワークスペ
    What is this fruit? What recipes could I use it in?
     ```
 
-15. 応答を確認します。 次に、「`quit`」と入力してプログラムを終了します。
+1. 応答を確認します。 次に、「`quit`」と入力してプログラムを終了します。
 
     > **注**: このシンプルなアプリには、会話履歴を保持するためのロジックが含まれていないので、モデルは、各プロンプトを前のプロンプトのコンテキストを持たない新しいリクエストとして処理します。
 
